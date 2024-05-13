@@ -27,11 +27,23 @@
       background-color: tomato;
       width: 60vw;
       height: 60vh;
+      padding: 30px;
       /* position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); */
     }
+
+    /* Body text selection */
+    ::selection{
+      background-color: yellow;
+      color: red;
+    }
+    h2::selection{
+      background-color: blue;
+      color: orangered;
+    }
+
   </style>
 
 </head>
@@ -40,6 +52,7 @@
   <div class="parent_div">
     <div class="child_div">
       <h2>3 Ways to Center a Div Inside Another Div</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloremque enim magni, dolorem quas est excepturi perspiciatis! Inventore asperiores ratione minus eveniet reprehenderit temporibus, saepe tempora eum ullam, quas itaque.</p>
     </div>
   </div>
   
