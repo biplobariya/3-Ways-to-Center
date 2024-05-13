@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3-Ways-to-Center</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .parent_div{
+      background-color: aquamarine;
+      width: 100vw;
+      height: 100vh;
+      /* position:relative; */
+
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      display: grid;
+      place-items: center;
+    }
+    .child_div{
+      background-color: tomato;
+      width: 60vw;
+      height: 60vh;
+      /* position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="parent_div">
+    <div class="child_div">
+      <h2>3 Ways to Center a Div Inside Another Div</h2>
+    </div>
+  </div>
+  
+</body>
+</html>
